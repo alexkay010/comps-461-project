@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar.bg-light {
+  background-color: #006d77 !important;
+}
+
+.navbar .navbar-brand {
+  color: #fff !important;
+  font-size: 1.5rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #e29578 !important;
+  font-size: 1.2rem;
+}
+
+.register-box {
+  border: 1px solid #006d77;
+  margin-top: 100px;
+}
+.register-box h4 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.register-box .register-link {
+  color: #e29578;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.register-box .register-link:hover {
+  color: #83c5be;
+}
+
+.login-box {
+  border: 2px dashed #006d77;
+  margin-top: 120px;
+}
+.login-box h4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-box .login-link {
+  color: #e29578;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+
+.login-box .login-link:hover {
+  color: #83c5be;
+}
+
+.login-box .login-button {
+  background-color: #e29578 !important;
+  color: #ffddd2;
+  font-size: 1.5rem;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
